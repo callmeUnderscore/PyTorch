@@ -1,3 +1,5 @@
+```python
+
 import torch
 import torchvision #pytorch提供的工具包，可提供数据集
 import os
@@ -11,3 +13,4 @@ os.listdir(path)
 #获取MNIST数据集并储存在云盘
 train_set = torchvision.datasets.MNIST(root='Colab Notebooks/dataset',train=True,download=True)# train : True = 训练集
 test_set = torchvision.datasets.MNIST(root='Colab Notebooks/dataset',train=False,download=True)# train : False = 测试集
+```
