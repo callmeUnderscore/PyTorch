@@ -1,4 +1,6 @@
-``` python
+
+```python
+
 import torch
 import matplotlib.pyplot as plt
 import numpy as np
@@ -52,4 +54,5 @@ plt.grid() #显示背景格
 plt.xlabel('Hours')
 plt.ylabel('Probability of Pass')
 plt.show()
+
 ```
